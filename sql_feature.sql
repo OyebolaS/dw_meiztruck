@@ -16,3 +16,14 @@ CREATE TABLE "items"(
 
 ALTER TABLE
     "items" ADD PRIMARY KEY("id");
+
+CREATE TABLE "transactions"(
+    "item_id" BIGINT NOT NULL,
+    "bank_id" BIGINT NOT NULL,
+    "customer_id" BIGINT NOT NULL,
+    "cost_price" BIGINT NOT NULL,
+    "selling_price" BIGINT NOT NULL,
+    "qty" BIGINT NOT NULL,
+    "rate" BIGINT NOT NULL,
+    "t_date" DATE NOT NULL
+);
