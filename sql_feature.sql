@@ -30,5 +30,11 @@ CREATE TABLE "transactions"(
 ALTER TABLE
     "transactions" ADD PRIMARY KEY("item_id");
 
+CREATE TABLE "date"(
+    "date" DATE NOT NULL,
+    "month" BIGINT NOT NULL,
+    "year" BIGINT NOT NULL
+);
+
 
 
