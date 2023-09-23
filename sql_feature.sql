@@ -7,3 +7,9 @@ CREATE TABLE "customers"(
 
 ALTER TABLE
     "customers" ADD PRIMARY KEY("id");
+CREATE TABLE "items"(
+    "id" BIGINT NOT NULL,
+    "item_name" VARCHAR(255) NOT NULL,
+    "cost_price" DOUBLE PRECISION NOT NULL,
+    "selling_price" DOUBLE PRECISION NOT NULL
+);
