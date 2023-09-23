@@ -50,6 +50,8 @@ ALTER TABLE
     "transactions" ADD CONSTRAINT "transactions_item_id_foreign" FOREIGN KEY("item_id") REFERENCES "items"("id");
 ALTER TABLE
     "transactions" ADD CONSTRAINT "transactions_bank_id_foreign" FOREIGN KEY("bank_id") REFERENCES "banks"("id");
+ALTER TABLE
+    "transactions" ADD CONSTRAINT "transactions_t_date_foreign" FOREIGN KEY("t_date") REFERENCES "date"("date");
 
 
 
