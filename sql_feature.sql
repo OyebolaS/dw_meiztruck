@@ -37,6 +37,27 @@ CREATE TABLE "date"(
 );
 ALTER TABLE
     "date" ADD PRIMARY KEY("date");
+    
+CREATE TABLE "banks"(
+    "id" VARCHAR(255) NOT NULL,
+    "bank_name" VARCHAR(255) NOT NULL,
+    "bank_code" BIGINT NOT NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
