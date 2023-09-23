@@ -27,3 +27,8 @@ CREATE TABLE "transactions"(
     "rate" BIGINT NOT NULL,
     "t_date" DATE NOT NULL
 );
+ALTER TABLE
+    "transactions" ADD PRIMARY KEY("item_id");
+
+
+
