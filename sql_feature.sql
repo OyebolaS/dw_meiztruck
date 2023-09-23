@@ -48,6 +48,8 @@ ALTER TABLE
     "banks" ADD PRIMARY KEY("id");
 ALTER TABLE
     "transactions" ADD CONSTRAINT "transactions_item_id_foreign" FOREIGN KEY("item_id") REFERENCES "items"("id");
+ALTER TABLE
+    "transactions" ADD CONSTRAINT "transactions_bank_id_foreign" FOREIGN KEY("bank_id") REFERENCES "banks"("id");
 
 
 
