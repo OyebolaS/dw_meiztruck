@@ -13,3 +13,6 @@ CREATE TABLE "items"(
     "cost_price" DOUBLE PRECISION NOT NULL,
     "selling_price" DOUBLE PRECISION NOT NULL
 );
+
+ALTER TABLE
+    "items" ADD PRIMARY KEY("id");
