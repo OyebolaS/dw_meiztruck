@@ -35,6 +35,8 @@ CREATE TABLE "date"(
     "month" BIGINT NOT NULL,
     "year" BIGINT NOT NULL
 );
+ALTER TABLE
+    "date" ADD PRIMARY KEY("date");
 
 
 
