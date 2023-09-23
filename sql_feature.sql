@@ -4,3 +4,6 @@ CREATE TABLE "customers"(
     "email" VARCHAR(255) NOT NULL,
     "reg_date" DATE NOT NULL
 );
+
+ALTER TABLE
+    "customers" ADD PRIMARY KEY("id");
